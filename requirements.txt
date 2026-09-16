@@ -1,0 +1,13 @@
+# --- Phần thu thập và trích xuất dữ lieu (src/ping_collector.py, src/export_dataset.py) ---
+# Gửi tín hiệu ping dùng các thư viện chuẩn của python, chỉ cần dung thêm thư viện pandas để xuất tổng hợp dữ liệu CSV các ngày.
+pandas>=2.0
+
+# --- Phần feature engineering / baseline / Isolation Forest (notebook) ---
+# StandardScaler, IsolationForest (scikit-learn); rolling/groupby (pandas - đã có ở phần trước)).
+numpy>=1.24
+scikit-learn>=1.3
+
+# Ve trực quan hoa (timeline anomaly, bieu do so sanh Baseline vs Isolation Forest) -
+# Hinh 3.1-3.4, anh 5.1-5.2 trong bao cao). Xac nhan lai dung thu vien thuc te da dung
+# (matplotlib thuan hay co dung them seaborn) truoc khi nop.
+matplotlib>=3.7
